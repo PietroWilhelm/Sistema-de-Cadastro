@@ -95,3 +95,4 @@ E:\Estudo\ControleDeContatos\ControleDeContatos\obj\Debug\net10.0\refint\Control
 E:\Estudo\ControleDeContatos\ControleDeContatos\obj\Debug\net10.0\ControleDeContatos.pdb
 E:\Estudo\ControleDeContatos\ControleDeContatos\obj\Debug\net10.0\ControleDeContatos.genruntimeconfig.cache
 E:\Estudo\ControleDeContatos\ControleDeContatos\obj\Debug\net10.0\ref\ControleDeContatos.dll
+E:\Estudo\ControleDeContatos\ControleDeContatos\obj\Debug\net10.0\ControleDeContatos.sourcelink.json
