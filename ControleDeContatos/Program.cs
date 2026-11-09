@@ -1,4 +1,5 @@
 using ControleDeContatos.Data;
+using ControleDeContatos.repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,9 @@ builder.Services.AddControllersWithViews();
 // Banco
 builder.Services.AddDbContext<BancoContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Injecão de dependencia
+builder.Services.AddScoped<IContatoRepository, ContatoRepository>();
 
 var app = builder.Build();
 

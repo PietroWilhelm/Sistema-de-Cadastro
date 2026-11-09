@@ -1,4 +1,6 @@
-﻿@{
+﻿@model ContatoModel
+
+@{
     ViewData["Title"] = "Criar contato";
 }
 
@@ -7,20 +9,22 @@
     
 </div>
 
-<form>
+<!-- asp-controller indicando que o controlador del é o contato, asp-action indicando qual a ação dele sendo ir para o criar, metodo POST -->
+<!-- Após isso mapeamos cada input com modelo de atributo da Model, asp-for=QUAL_ATRIBUTO_VAI_SER_MAPEADO -->
+<form asp-controller="Contato" asp-action="Criar" method="post">
     <div class="mb-3">
         <label for="nome" class="form-label">Nome</label>
-        <input type="text" class="form-control" placeholder="Digite o nome contato">
+        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome contato">
     </div>
     
     <div class="mb-3">
         <label for="email" class="form-label">E-mail</label>
-        <input type="text" class="form-control" placeholder="Digite o e-mail do contaot">
+        <input type="text" asp-for="Email" class="form-control" placeholder="Digite o e-mail do contato">
     </div>
     
     <div class="mb-3">
         <label for="celular" class="form-label">Celular</label>
-        <input type="text" class="form-control" placeholder="Digite o celular contato">
+        <input type="text" asp-for="Celular" class="form-control" placeholder="Digite o celular contato">
     </div>
 
     <button type="submit" class="btn btn-primary">Adicionar</button>
