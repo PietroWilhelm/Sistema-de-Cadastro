@@ -47,14 +47,24 @@ public class ContatoController : Controller
     [HttpPost]
     public IActionResult Criar(ContatoModel contato)
     {
-        _contatoRepository.Adiconar(contato);
-        return RedirectToAction("Index");
+        if (ModelState.IsValid)
+        {
+            _contatoRepository.Adiconar(contato);
+            return RedirectToAction("Index");
+        }
+        return View(contato);
     }
     
     [HttpPost]
     public IActionResult Alterar(ContatoModel contato)
     {
-        _contatoRepository.Atualizar(contato);
-        return RedirectToAction("Index");
+        if (ModelState.IsValid)
+        {
+            _contatoRepository.Atualizar(contato);
+            return RedirectToAction("Index");
+        }
+
+        return View("Editar", contato);
+
     }
 }
