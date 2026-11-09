@@ -13,6 +13,12 @@ public class ContatoRepository : IContatoRepository
         _bancoContext = bancoContext;
     }
 
+
+    public ContatoModel ListarPorId(int id)
+    {
+        return _bancoContext.Contatos.FirstOrDefault(c => c.Id == id);
+    }
+
     public List<ContatoModel> BuscarTodos()
     {
         return _bancoContext.Contatos.ToList();
@@ -27,11 +33,19 @@ public class ContatoRepository : IContatoRepository
         return contato;
     }
 
-    public ContatoModel Atulizar(ContatoModel contato)
+    public ContatoModel Atualizar(ContatoModel contato)
     {
-        throw new NotImplementedException();
+        ContatoModel contaotDB = ListarPorId(contato.Id);
+        if (contaotDB == null) throw new Exception("Houve um erro na atualização do contato");
+        
+        contaotDB.Nome = contato.Nome;
+        contaotDB.Email = contato.Email;
+        contaotDB.Celular = contato.Celular;
+        _bancoContext.Contatos.Update(contaotDB);
+        _bancoContext.SaveChanges();
+        return contaotDB;
     }
-
+    
     public ContatoModel Apagar(int idContato)
     {
         throw new NotImplementedException();
