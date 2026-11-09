@@ -46,8 +46,13 @@ public class ContatoRepository : IContatoRepository
         return contaotDB;
     }
     
-    public ContatoModel Apagar(int idContato)
+    public bool Apagar(int id)
     {
-        throw new NotImplementedException();
+        ContatoModel contatoDB = ListarPorId(id);
+        if (contatoDB == null) throw new Exception("Houve um erro na deleção do contato");
+
+        _bancoContext.Contatos.Remove(contatoDB);
+        _bancoContext.SaveChanges();
+        return true;
     }
 }

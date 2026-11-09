@@ -8,5 +8,5 @@ public interface IContatoRepository
     List<ContatoModel> BuscarTodos();
     ContatoModel Adiconar(ContatoModel contato);
     ContatoModel Atualizar(ContatoModel contato);
-    ContatoModel Apagar(int id);
+    bool Apagar(int id);
 }
