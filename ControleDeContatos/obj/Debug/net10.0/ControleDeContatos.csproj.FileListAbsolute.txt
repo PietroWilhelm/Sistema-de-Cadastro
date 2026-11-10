@@ -284,4 +284,4 @@ E:/Estudo/ControleDeContatos/ControleDeContatos/obj/Debug/net10.0/ControleDeCont
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/ControleDeContatos.csproj.AssemblyReference.cache
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/Controle.6EBC8F93.Up2Date
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/tll6amtssh-{0}-c6noq7hhb9-c6noq7hhb9.gz
-/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/8mwend677w-{0}-nkb8vv4csc-nkb8vv4csc.gz
+/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/8mwend677w-{0}-q0wd8vq1zg-q0wd8vq1zg.gz
