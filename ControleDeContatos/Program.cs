@@ -13,6 +13,7 @@ builder.Services.AddDbContext<BancoContext>(options =>
 
 // Injecão de dependencia
 builder.Services.AddScoped<IContatoRepository, ContatoRepository>();
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
 var app = builder.Build();
 

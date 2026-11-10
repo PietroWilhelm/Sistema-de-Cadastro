@@ -14,7 +14,7 @@
 <form asp-controller="Contato" asp-action="Criar" method="post">
     <div class="mb-3">
         <label for="nome" class="form-label">Nome</label>
-        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome contato">
+        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome do  contato">
         @Html.ValidationMessageFor(c => c.Nome)
     </div>
     
@@ -26,7 +26,7 @@
     
     <div class="mb-3">
         <label for="celular" class="form-label">Celular</label>
-        <input type="text" asp-for="Celular" class="form-control" placeholder="Digite o celular contato">
+        <input type="text" asp-for="Celular" class="form-control" placeholder="Digite o celular do contato">
         @Html.ValidationMessageFor(c => c.Celular)
     </div>
 
