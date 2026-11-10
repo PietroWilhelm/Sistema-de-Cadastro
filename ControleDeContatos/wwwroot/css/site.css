@@ -81,3 +81,27 @@ a {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.alert-close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 50%;
+
+  background-color: #dc3545;
+  color: white;
+
+  font-size: 20px;
+  cursor: pointer;
+
+  z-index: 10;
+}

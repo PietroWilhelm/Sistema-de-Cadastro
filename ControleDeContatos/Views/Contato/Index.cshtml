@@ -13,15 +13,24 @@
     </div>
     <br/>
     
-    <div class="alert alert-primary alert-dismissible fade show" role="alert">
-        A simple primary alert—check it out!
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show position-relative" role="alert">
+            @TempData["MensagemSucesso"]
+            <button type="button" class="alert-close" data-bs-dismiss="alert" aria-label="Close">&times;</button>
+        </div>    
+    } 
+    
+    
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["MensagemErro"]
+            <button type="button" class="alert-close" data-bs-dismiss="alert" aria-label="Close">&times;</button>
+        </div>
+    } 
 
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-        A simple success alert—check it out!
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
+    <br/>
     
     <h1 class="display-4">Listagem de contatos</h1>
     <table class="table">

@@ -121,7 +121,6 @@ E:/Estudo/ControleDeContatos/ControleDeContatos/obj/Debug/net10.0/ControleDeCont
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/scopedcss/bundle/ControleDeContatos.styles.css
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/scopedcss/projectbundle/ControleDeContatos.bundle.scp.css
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/qz8tohz20j-{0}-61n19gt1b8-61n19gt1b8.gz
-/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/8mwend677w-{0}-fr7q2aak1r-fr7q2aak1r.gz
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/m2v0siah1n-{0}-bqjiyaj88i-bqjiyaj88i.gz
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/y8klbvtmh4-{0}-c2jlpeoesf-c2jlpeoesf.gz
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/2h436henzi-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -284,4 +283,5 @@ E:/Estudo/ControleDeContatos/ControleDeContatos/obj/Debug/net10.0/ControleDeCont
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/ControleDeContatos.csproj.AssemblyReference.cache
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/Controle.6EBC8F93.Up2Date
-/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/tll6amtssh-{0}-g90jdnasrz-g90jdnasrz.gz
+/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/tll6amtssh-{0}-c6noq7hhb9-c6noq7hhb9.gz
+/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/8mwend677w-{0}-cch8cpq51m-cch8cpq51m.gz
