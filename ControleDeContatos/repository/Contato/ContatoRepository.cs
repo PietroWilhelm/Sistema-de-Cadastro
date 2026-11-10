@@ -27,7 +27,7 @@ public class ContatoRepository : IContatoRepository
         return contatos;
     }
 
-    public ContatoModel Adiconar(ContatoModel contato)
+    public ContatoModel Adicionar(ContatoModel contato)
     {   
         // Adiciona o contato no banco de dados
         _bancoContext.Contatos.Add(contato);

@@ -68,7 +68,7 @@ public class ContatoController : Controller
         {
             if (ModelState.IsValid)
             {
-                _contatoRepository.Adiconar(contato);
+                _contatoRepository.Adicionar(contato);
                 TempData["MensagemSucesso"] = "Contato cadastrado com sucesso!";
                 return RedirectToAction("Index");
             }
