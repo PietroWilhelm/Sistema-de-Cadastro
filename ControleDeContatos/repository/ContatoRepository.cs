@@ -1,5 +1,6 @@
 using ControleDeContatos.Data;
 using ControleDeContatos.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ControleDeContatos.repository;
 
@@ -21,7 +22,9 @@ public class ContatoRepository : IContatoRepository
 
     public List<ContatoModel> BuscarTodos()
     {
-        return _bancoContext.Contatos.ToList();
+        // Ajuste na consulta para ordenar os contatos pelo Id em ordem crescente
+        var contatos = _bancoContext.Contatos.OrderBy(c => c.Id).ToList();
+        return contatos;
     }
 
     public ContatoModel Adiconar(ContatoModel contato)
