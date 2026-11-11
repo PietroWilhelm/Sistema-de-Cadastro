@@ -1,3 +1,4 @@
+using ControleDeContatos.Helper;
 using ControleDeContatos.Models.Login;
 using ControleDeContatos.Models.Usuario;
 using ControleDeContatos.repository;
@@ -8,15 +9,22 @@ namespace ControleDeContatos.Controllers;
 public class LoginController : Controller
 {
     private readonly IUsuarioRepository _usuarioRepository;
+    private readonly ISessao _sessao;
 
-    public LoginController(IUsuarioRepository usuarioRepository)
+    public LoginController(IUsuarioRepository usuarioRepository,ISessao sessao )
     {
         _usuarioRepository = usuarioRepository;
+        _sessao = sessao;
     }
     
     // GET
     public IActionResult Index()
     {
+        // se usuer estiver logado, redirecionar para home
+        if (_sessao.BuscarSessaoDoUsuario() != null)
+        {
+            return RedirectToAction("Index", "Home");
+        }
         return View();
     }
     
@@ -32,6 +40,8 @@ public class LoginController : Controller
                {
                    if (usuario.SenhaValida(loginModel.Senha))
                    {
+                       // criação da sessão do user
+                       _sessao.CriarSessaoDoUsuario(usuario);
                        return RedirectToAction("Index", "Home");
                    }   
                    TempData["MensagemErro"] = $"Senha do usuário é inválida. Por favor, tente novamente.";

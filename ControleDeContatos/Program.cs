@@ -1,4 +1,5 @@
 using ControleDeContatos.Data;
+using ControleDeContatos.Helper;
 using ControleDeContatos.repository;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,8 +13,17 @@ builder.Services.AddDbContext<BancoContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Injecão de dependencia
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IContatoRepository, ContatoRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<ISessao, Sessao>();
+
+// Configuração da Sessão
+builder.Services.AddSession(o =>
+{
+    o.Cookie.HttpOnly = true;
+    o.Cookie.IsEssential = true;
+});
 
 var app = builder.Build();
 
@@ -29,6 +39,9 @@ app.UseHttpsRedirection();
 app.UseRouting();
 
 app.UseAuthorization();
+
+// Habilitar Sessões no projeto
+app.UseSession();
 
 app.MapStaticAssets();
 
