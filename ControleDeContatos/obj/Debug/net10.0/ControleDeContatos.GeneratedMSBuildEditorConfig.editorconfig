@@ -63,6 +63,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/Views/Usuario/ApagarConfirmacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9BcGFnYXJDb25maXJtYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/Views/Usuario/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9Dcmlhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
