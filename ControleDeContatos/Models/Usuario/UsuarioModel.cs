@@ -19,4 +19,9 @@ public class UsuarioModel
     public string Senha { get; set; }
     public DateTime DataCadastro { get; set; }
     public DateTime? DataAlteracao { get; set; }
+
+    public bool SenhaValida(string senha)
+    {
+        return Senha == senha;
+    }
 }

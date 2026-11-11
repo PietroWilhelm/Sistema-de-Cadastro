@@ -14,6 +14,11 @@ public class UsuarioRepository : IUsuarioRepository
     }
 
 
+    public UsuarioModel BuscarPorLogin(string login)
+    {
+        return _bancoContext.Usuarios.FirstOrDefault(u => u.Login.ToUpper() == login.ToUpper());
+    }
+
     public UsuarioModel ListarPorId(int id)
     {
         return _bancoContext.Usuarios.FirstOrDefault(u => u.Id == id);

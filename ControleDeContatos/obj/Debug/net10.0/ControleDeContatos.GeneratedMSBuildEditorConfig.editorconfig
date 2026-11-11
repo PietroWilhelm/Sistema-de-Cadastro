@@ -55,6 +55,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/Views/login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvbG9naW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,6 +90,10 @@ build_metadata.AdditionalFiles.CssScope =
 [/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/Views/login/_LayoutDeslogado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvbG9naW4vX0xheW91dERlc2xvZ2Fkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-nuc4lugj2r
 
 [/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s

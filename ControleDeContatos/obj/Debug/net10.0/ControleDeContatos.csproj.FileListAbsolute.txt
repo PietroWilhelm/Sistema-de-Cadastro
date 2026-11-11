@@ -180,8 +180,6 @@ E:/Estudo/ControleDeContatos/ControleDeContatos/obj/Debug/net10.0/ControleDeCont
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/8jd1lj360x-{0}-muycvpuwrr-muycvpuwrr.gz
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/5t2wjwi8bj-{0}-87fc7y1x7t-87fc7y1x7t.gz
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/u4sb0a1rc1-{0}-jfsiqqwiad-jfsiqqwiad.gz
-/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/npz5av2llk-{0}-qtpelq9x1a-qtpelq9x1a.gz
-/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/yyklpme7v1-{0}-qtpelq9x1a-qtpelq9x1a.gz
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/staticwebassets.build.json
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/staticwebassets.build.json.cache
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/staticwebassets.development.json
@@ -285,3 +283,6 @@ E:/Estudo/ControleDeContatos/ControleDeContatos/obj/Debug/net10.0/ControleDeCont
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/Controle.6EBC8F93.Up2Date
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/tll6amtssh-{0}-c6noq7hhb9-c6noq7hhb9.gz
 /home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/8mwend677w-{0}-y9yi9x8tpq-y9yi9x8tpq.gz
+/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/scopedcss/Views/login/_LayoutDeslogado.cshtml.rz.scp.css
+/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/npz5av2llk-{0}-kv56yhre79-kv56yhre79.gz
+/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/Debug/net10.0/compressed/yyklpme7v1-{0}-kv56yhre79-kv56yhre79.gz
