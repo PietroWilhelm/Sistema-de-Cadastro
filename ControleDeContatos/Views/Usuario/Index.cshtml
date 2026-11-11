@@ -41,6 +41,7 @@
             <th scope="col">Nome</th>
             <th scope="col">Login</th>
             <th scope="col">E-mail</th>
+            <th scope="col">Perfil</th>
             <th scope="col">Data de cadastro</th>
             <th scope="col"></th>
         </tr>
@@ -56,6 +57,7 @@
                     <td>@usuario.Nome</td>
                     <td>@usuario.Login</td>
                     <td>@usuario.Email</td>
+                    <td>@(@usuario.Perfil == ControleDeContatos.Enums.PerfilEnum.Admin ? "Administrador" : "Padrão")</td>
                     <td>@usuario.DataCadastro</td>
                     <td>
                         <!---asp-route-id= indica o id que desejo acessar seja apagando ou editando  --->
