@@ -37,11 +37,11 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
-
-app.UseAuthorization();
-
 // Habilitar Sessões no projeto
 app.UseSession();
+app.UseAuthorization();
+
+
 
 app.MapStaticAssets();
 
