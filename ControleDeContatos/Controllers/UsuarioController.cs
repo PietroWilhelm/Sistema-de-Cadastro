@@ -1,9 +1,11 @@
+using ControleDeContatos.Filters;
 using ControleDeContatos.Models.Usuario;
 using ControleDeContatos.repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControleDeContatos.Controllers;
 
+[PaginaParaAdmin]
 public class UsuarioController : Controller
 {
     

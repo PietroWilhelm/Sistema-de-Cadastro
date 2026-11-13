@@ -1,9 +1,11 @@
-﻿using ControleDeContatos.Models;
+﻿using ControleDeContatos.Filters;
+using ControleDeContatos.Models;
 using ControleDeContatos.repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControleDeContatos.Controllers;
 
+[PaginaParaUsuarioLogado]
 public class ContatoController : Controller
 {
     // somento Leitura

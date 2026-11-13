@@ -2176,19 +2176,19 @@
     ]
   },
   "packageFolders": {
-    "/home/opentech-pietro/.nuget/packages/": {}
+    "C:\\Users\\pietr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/ControleDeContatos.csproj",
+      "projectUniqueName": "E:\\Estudo\\Sistema-de-Cadastro\\ControleDeContatos\\ControleDeContatos.csproj",
       "projectName": "ControleDeContatos",
-      "projectPath": "/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/ControleDeContatos.csproj",
-      "packagesPath": "/home/opentech-pietro/.nuget/packages/",
-      "outputPath": "/home/opentech-pietro/RiderProjects/Sistema-de-Cadastro/ControleDeContatos/obj/",
+      "projectPath": "E:\\Estudo\\Sistema-de-Cadastro\\ControleDeContatos\\ControleDeContatos.csproj",
+      "packagesPath": "C:\\Users\\pietr\\.nuget\\packages\\",
+      "outputPath": "E:\\Estudo\\Sistema-de-Cadastro\\ControleDeContatos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/opentech-pietro/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\pietr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -2213,7 +2213,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net10.0": {
@@ -2260,7 +2260,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/opentech-pietro/.dotnet/sdk/10.0.301/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Users\\pietr\\.dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
